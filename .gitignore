@@ -1,0 +1,12 @@
+# DS_Store
+.DS_Store
+
+# bundle
+app.js
+app.js.map
+
+# node_modules
+node_modules/
+
+# .env
+.env

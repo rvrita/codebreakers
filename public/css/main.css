@@ -1,0 +1,204 @@
+body {
+  font-family: 'Anonymous Pro', monospace;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  background-color: linen;
+  color: rgb(86, 98, 109);
+}
+
+#app {
+  padding: 30px 0;
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.h3 {
+  font-size: 22px;
+}
+
+/* Board CSS */
+
+.board {
+  margin: 30px auto 0;
+  padding: 20px;
+  border-spacing: 15px;
+  background-color: lightgray;
+  border-radius: 5px;
+  /* border: 2px solid tan; */
+}
+
+.card {
+  width: 140px;
+  height: 70px;
+  border: 2px solid tan;
+  border-radius: 10px;
+  background-color: blanchedalmond;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.5s;
+}
+
+.card:hover {
+  box-shadow: 0 12px 22px 0 rgba(0,0,0,0.3);
+}
+
+.blue {
+  background-color: steelblue;
+  color: white;
+  border: 2px solid rgb(46, 108, 159);
+}
+
+.red {
+  background-color: rgb(206, 91, 91);
+  color: white;
+  border: 2px solid rgb(199, 69, 69);
+}
+
+.black {
+  background-color: rgb(57, 57, 57);
+  color: white;
+  border: 2px solid white;
+}
+
+.yellow {
+  background-color: rgb(235, 206, 42);
+  color: white;
+  border: 2px solid rgb(212, 184, 25);
+}
+
+.blueb {
+  border: 2px solid steelblue;
+}
+
+.redb {
+  border: 2px solid rgb(206, 91, 91);
+}
+
+.blackb {
+  border: 2px solid black;
+}
+
+.yellowb {
+  border: 2px solid rgb(235, 206, 42);
+}
+
+/* Scoreboard CSS */
+
+.scoreboard,
+.infoboard {
+  width: 220px;
+  border-radius: 5px;
+  padding: 10px;
+  height: 300px;
+}
+
+.scoreboard {
+  background-color: linen;
+}
+
+.statusmessage {
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+button, input[type=submit] {
+  font-family: inherit;
+  background-color: linen;
+  color: inherit;
+  cursor: pointer;
+  border: 2px solid rgb(122, 139, 155);
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.flexcontainer {
+  margin: 30px auto 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 830px;
+  background-color: lightgray;
+  border-radius: 5px;
+  padding: 30px 10px;
+  font-size: 18px;
+}
+
+.flexcontainer table {
+  margin: 0 auto;
+}
+
+#hint {
+  margin-top: 30px;
+}
+
+.playerturn {
+  margin-bottom: 10px;
+}
+
+.hintwords {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Addwords CSS */
+
+.addwordsform {
+  width: 430px;
+}
+
+.restartgame {
+  width: 270px;
+}
+
+.addwordsform,
+.restartgame {
+  background-color: linen;
+  border-radius: 5px;
+  padding: 10px 10px 30px;
+}
+
+.addwords-container {
+  width: 850px;
+  margin: 30px auto 0;
+  background-color: lightgray;
+  display:flex;
+  justify-content: space-around;
+  border-radius: 5px;
+  padding: 30px 10px;
+  font-size: 18px;
+}
+
+input {
+  margin: 8px 0 8px 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(122, 139, 155);
+  padding: 3px 6px;
+  line-height: 18px;
+  font-family: inherit;
+  background-color: linen;
+}
+
+
+select {
+  margin-left: 5px;
+  font-family: inherit;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(122, 139, 155);
+  line-height: 18px;
+  background-color: linen;
+}
+
+.restartgame select {
+  margin-top: 10px;
+}
+
+/* Rules CSS */
+
+.rules {
+  width: 850px;
+  margin: 0 auto;
+}
